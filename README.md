@@ -1,42 +1,30 @@
-Resume Insight AI
+# Smart Resume Reviewer
 
-AI-powered Resume Analyzer and Comparator built with Streamlit
- and OpenAI's GPT models. This app provides detailed, actionable feedback to enhance resumes for job seekers, and also compares two resumes side by side to determine which is better suited for a target role.
+Smart Resume Reviewer is an AI-powered web app that analyzes and compares resumes to help candidates improve clarity, relevance, and ATS readiness.
 
-🚀 Features
+## Live App
 
-🔍 Single Resume Analysis
-Upload a resume (PDF or TXT) and get:
-A comprehensive review out of 100
-Breakdown by structure, content, ATS compatibility, and more
-5 actionable improvement suggestions
-Suggested keywords
+[smart-resume-reviewer-vanshgupta8.streamlit.app](https://smart-resume-reviewer-vanshgupta8.streamlit.app/)
 
-🆚 Resume Comparison
-Upload two resumes and compare:
-Scores and strengths
-Weaknesses
-Skill/experience gaps
-ATS compatibility
+## Highlights
 
-🕘 Analysis History
-Review previously analyzed resumes and comparison reports.
- 
-Installation
-1. Clone the repository
-git clone https://github.com/yourusername/resume-insight-ai.git
-cd resume-insight-ai
+- AI-based resume analysis with actionable feedback
+- Resume scoring and structured improvement suggestions
+- Side-by-side comparison of two resumes
+- ATS-focused evaluation for better shortlisting chances
 
-2. Create a virtual environment
+## Tech Stack
+
+- **Frontend/App:** Streamlit  
+- **Backend Logic:** Python  
+- **AI:** OpenAI API  
+- **File Parsing:** PyPDF2  
+
+## Run Locally
+
+```bash
+git clone https://github.com/vanshgupta8/smart-resume-reviewer.git
+cd smart-resume-reviewer
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-3. Install dependencies
+venv\Scripts\activate   # Windows
 pip install -r requirements.txt
-
-4. Set up OpenAI API key
-Create a .env file in the root directory and add:
-OPENAI_API_KEY=your_openai_api_key
-
-5. Run the app
-streamlit run main.py
