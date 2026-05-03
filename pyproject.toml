@@ -1,7 +1,7 @@
 [project]
-name = "project2"
+name = "resume-insight-ai"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI-powered resume analysis and comparison app"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

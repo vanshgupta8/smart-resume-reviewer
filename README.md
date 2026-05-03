@@ -1,4 +1,4 @@
-Smart Resume Reviewer
+Resume Insight AI
 
 AI-powered Resume Analyzer and Comparator built with Streamlit
  and OpenAI's GPT models. This app provides detailed, actionable feedback to enhance resumes for job seekers, and also compares two resumes side by side to determine which is better suited for a target role.
@@ -24,8 +24,8 @@ Review previously analyzed resumes and comparison reports.
  
 Installation
 1. Clone the repository
-git clone https://github.com/yourusername/smart-resume-reviewer.git
-cd smart-resume-reviewer
+git clone https://github.com/yourusername/resume-insight-ai.git
+cd resume-insight-ai
 
 2. Create a virtual environment
 python -m venv venv
@@ -39,4 +39,4 @@ Create a .env file in the root directory and add:
 OPENAI_API_KEY=your_openai_api_key
 
 5. Run the app
-streamlit run app.py
+streamlit run main.py

@@ -10,7 +10,7 @@ import time
 load_dotenv()
 
 st.set_page_config(
-    page_title="Smart Resume Reviewer ", 
+    page_title="Resume Insight AI", 
     page_icon="📃", 
     layout="centered",
     initial_sidebar_state="expanded"
@@ -94,7 +94,7 @@ if 'analysis_results' not in st.session_state:
 if 'comparison_result' not in st.session_state:
     st.session_state.comparison_result = None
 
-st.markdown('<div class="main-header"><h1>Smart Resume Reviewer</h1></div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header"><h1>Resume Insight AI</h1></div>', unsafe_allow_html=True)
 st.markdown(
     """<p style='font-size: 0.85rem; color: #B3B3B3; text-align: center;'>
     Transform your resume with AI-powered insights and stand out from the competition!
